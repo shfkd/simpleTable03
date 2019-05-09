@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74534CA62283C837004CC0F9 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74534CA52283C837004CC0F9 /* AddViewController.swift */; };
 		748F9BB72278131200AC9FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F9BB62278131200AC9FB9 /* AppDelegate.swift */; };
 		748F9BB92278131200AC9FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F9BB82278131200AC9FB9 /* ViewController.swift */; };
 		748F9BBC2278131200AC9FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748F9BBA2278131200AC9FB9 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74534CA52283C837004CC0F9 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		748F9BB32278131200AC9FB9 /* simpleTable03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleTable03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748F9BB62278131200AC9FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		748F9BB82278131200AC9FB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				748F9BB62278131200AC9FB9 /* AppDelegate.swift */,
 				748F9BB82278131200AC9FB9 /* ViewController.swift */,
 				74C1A2AA22815BE400664A94 /* DetailViewController.swift */,
+				74534CA52283C837004CC0F9 /* AddViewController.swift */,
 				748F9BBA2278131200AC9FB9 /* Main.storyboard */,
 				748F9BBD2278131300AC9FB9 /* Assets.xcassets */,
 				748F9BBF2278131300AC9FB9 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				74C1A2AB22815BE400664A94 /* DetailViewController.swift in Sources */,
 				748F9BB92278131200AC9FB9 /* ViewController.swift in Sources */,
+				74534CA62283C837004CC0F9 /* AddViewController.swift in Sources */,
 				748F9BB72278131200AC9FB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
