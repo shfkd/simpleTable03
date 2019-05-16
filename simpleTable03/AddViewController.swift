@@ -9,24 +9,27 @@
 import UIKit
 
 class AddViewController: UIViewController {
-    var testData: String?
-    var imgData : String?
-    var nameData : String?
-    
-    @IBOutlet weak var imgView: UIImageView!
-    @IBOutlet weak var detailData: UILabel!
-    
+//    var testData: String?
+//    var imgData : String?
+//    var nameData : String?
+//
+//   @IBOutlet weak var imgView: UIImageView!
+//   @IBOutlet weak var detailData: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        print(testData!)
-        self.title = testData
-        imgView.image = UIImage(named: imgData!)
-        detailData.text = nameData
+//        print(testData!)
+//        self.title = testData
+//        imgView.image = UIImage(named: imgData!)
+//        detailData.text = nameData
     }
     
-
+    @IBAction func closeBtn(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

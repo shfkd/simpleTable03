@@ -42,21 +42,21 @@ class ViewController: UIViewController, UITableViewDataSource{
     }
     
     //AddViewController 클래스로 테이터 넘기기
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goAdd" {
-            let addVC = segue.destination as! AddViewController
-            //addVC.testData = self.title
-            addVC.testData = animals[2]
-            addVC.imgData = "Cat"
-            addVC.nameData = detailAnimals[0]
-        }
-        else if segue.identifier == "goDetail"{
-            
-        }
-        else{
-            print("segue error")
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "goAdd" {
+//            let addVC = segue.destination as! AddViewController
+//            //addVC.testData = self.title
+//            addVC.testData = animals[2]
+//            addVC.imgData = "Cat"
+//            addVC.nameData = detailAnimals[0]
+//        }
+//        else if segue.identifier == "goDetail"{
+//
+//        }
+//        else{
+//            print("segue error")
+//        }
+//    }
 
 }
 
